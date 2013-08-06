@@ -6,7 +6,7 @@ around 100 lines of code written in Golang.
 ## Installation
 
 To install `htdird` go to [releases][releases] page and pick latest package. Download
-it package and then unpack with desired prefix:
+it and unpack with desired prefix:
 
     $ unzip -d /usr/local htdird-*.zip
 
