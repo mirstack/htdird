@@ -38,7 +38,7 @@ private formation with no direct access from the outside world.
 It can be also used as a lowest layer in serving static assets in environments that dont provide access
 to static servers (for example on Heroku), an example `Procfile`:
 
-    $ bin/htdird :$PORT .
+    $ bin/htdird :$PORT ./public
     
 Where `bin/htdird` is added to your repository.
 
