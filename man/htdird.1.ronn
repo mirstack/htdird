@@ -1,0 +1,61 @@
+htdird(1) -- the tiny static HTTPS server
+=========================================
+
+## SYNOPSIS
+
+`htdird` [-d] [-h] [-v] <ADDR> <DIR>
+
+## DESCRIPTION
+
+Start HTTP server on address <ADDR> that will serve static files from directory <DIR>.
+
+Server doesn't provide anything else, doesn't deal with authentication, nor SSL nor
+any other options. And why is that so? Because this tiny bit has been made to use
+internally within very secured virtual private formation with no direct access
+from the outside world.
+
+## OPTIONS
+
+  * `-d`:
+  Enables debug mode.
+
+  * `-h`:
+  Shows help screen.
+
+  * `-v`:
+  Print version number and exit.
+
+## EXAMPLES
+
+Here's few examples of usage:
+
+    $ htdird :8080 /path/to/directory
+    $ htdird -d domain.com:80 .
+
+## REPORTING BUGS
+
+If you found any problem with the application, please start an issue on
+**project's issues page**[2].
+
+## AUTHOR
+
+Chris Kowalik, chris@nu7hat.ch.
+
+## COPYRIGHT
+
+Copyright 2013 (C) by VividCortext, support@vividcortex.com.<br />
+Released under MIT License.
+
+## NOTES
+
+  1. Project home:<br />
+     http://mirstack.org/htdird/
+
+  2. Project's issue tracker:<br />
+     https://github.com/mirstack/htdird/issues
+
+  3. Git repository:<br />
+     https://github.com/mirstack/htdird.git
+
+  4. VividCortex support list:<br />
+     support@vividcortex.com
