@@ -1,4 +1,4 @@
-# htdird - Static HTTP server.
+# htdird - Static HTTP server [![Build Status](https://travis-ci.org/mirstack/htdird.png?branch=master)](https://travis-ci.org/mirstack/htdird)
 
 This is a tiny HTTP server that serves static files from specific directory. The server is just 
 around 100 lines of code written in Golang.
