@@ -1,4 +1,6 @@
-# htdird [![Build Status](https://travis-ci.org/mirstack/htdird.png?branch=master)](https://travis-ci.org/mirstack/htdird)
+# htdird 
+
+[![Build Status](https://travis-ci.org/mirstack/htdird.png?branch=master)](https://travis-ci.org/mirstack/htdird)
 
 **Static HTTP server.**
 
